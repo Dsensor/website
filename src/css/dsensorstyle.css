@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    /*list-style: none;*/
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*.antialias {
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+*/
+
+body {
+    min-height: 740px;
+    background: rgb(215, 215, 215);
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
+    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));    
+}
+
+h1 {
+	font-size:4em;	
+	
+}
+
+#logosize {
+	height:40%;
+	width:40%;
+}
+
+#welcome {
+
+	height:400px;
+	margin: auto;
+	width:100%;
+	text-align:center;
+}
+
+#welcome-background {
+	background-image: url("quotes.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top:0px;
+	min-height:400px;
+	
+}
+
+#ptopscience {
+	font-size: 2em;
+	padding-top:20px;
+	margin-bottom:80px;
+}
+
+#navigation {
+	margin: auto;
+	width:100%;
+	text-align:center;
+	font-size: 1.1em;
+	border: 0px solid grey;
+}
+
+.top-navigation {
+	border: 0px solid blue;
+	
+}
+
+.top-navigation li {
+	display:inline-block;
+	border: 0px solid grey;
+	margin: 0px 10px 0px 10px;	
+}
+
+#summary {
+	background:white;
+	border: solid 1px;
+	border-radius: 25px;
+	margin: auto;
+	width:60%;
+	text-align:center;
+	border: 0px solid grey;	
+}
+
+#summary-content {
+	text-align: justify;
+	text-justify: inter-word;
+	line-height: 200%;
+	margin-top: 20px;
+	padding: 20px;
+	font-size: 1.1em;		
+	border: 0px solid grey;	
+}
+
+#summary-content p {
+	margin-top: 20px;
+}
+
+#quickguide {
+	margin:50px;
+}
+
+#quickguide-header {
+	font-size:1.2em;
+
+}
+
+#quickguide-content {
+	margin: auto;
+	width:100%;
+	text-align:center;
+	font-size: 1em;
+	border: 0px solid grey;
+}
+
+.quickguide-navigation {
+	border: 0px solid blue;
+	
+}
+
+.quickguide-navigation li {
+	display:inline-block;
+	border: 0px solid grey;
+	margin: 20px 10px 0px 10px;	
+	font-size: 1.1em;
+}
+
+#footer {
+	margin: auto;
+	width:100%;
+	text-align:center;
+	font-size: 1em;	
+	border: 0px solid grey;
+	padding-top:50px;
+}
